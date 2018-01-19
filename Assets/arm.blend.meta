@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: d1419f97e3cda4d2d99cb122c3e2260e
+timeCreated: 1513658726
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: f_index_01_L
+    100006: f_index_02_L
+    100008: f_index_03_L
+    100010: f_middle_01_L
+    100012: f_middle_02_L
+    100014: f_middle_03_L
+    100016: f_pinky_01_L
+    100018: f_pinky_02_L
+    100020: f_pinky_03_L
+    100022: f_ring_01_L
+    100024: f_ring_02_L
+    100026: f_ring_03_L
+    100028: forearm_L
+    100030: hand_L
+    100032: metarig
+    100034: palm_01_L
+    100036: palm_02_L
+    100038: palm_03_L
+    100040: palm_04_L
+    100042: thumb_01_L
+    100044: thumb_02_L
+    100046: thumb_03_L
+    400000: //RootNode
+    400002: Cube
+    400004: f_index_01_L
+    400006: f_index_02_L
+    400008: f_index_03_L
+    400010: f_middle_01_L
+    400012: f_middle_02_L
+    400014: f_middle_03_L
+    400016: f_pinky_01_L
+    400018: f_pinky_02_L
+    400020: f_pinky_03_L
+    400022: f_ring_01_L
+    400024: f_ring_02_L
+    400026: f_ring_03_L
+    400028: forearm_L
+    400030: hand_L
+    400032: metarig
+    400034: palm_01_L
+    400036: palm_02_L
+    400038: palm_03_L
+    400040: palm_04_L
+    400042: thumb_01_L
+    400044: thumb_02_L
+    400046: thumb_03_L
+    4300000: Cube
+    7400000: Default Take
+    7400002: index
+    9500000: //RootNode
+    13700000: Cube
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 834ce1eb9b0f8449fa906baef87aa45f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
