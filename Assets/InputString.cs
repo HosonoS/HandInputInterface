@@ -33,7 +33,7 @@ public class InputString : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		StartCoroutine ("InputCharacter");
 	}
 
 	void FixedUpdate(){
@@ -43,7 +43,6 @@ public class InputString : MonoBehaviour {
 		//Debug.Log (uhand.UHQuaternion[0]);
 		openCloseCheck(uhand.UHPR[0],uhand.UHPR[1]);
 		indexCheck (uhand.UHPR[0],uhand.UHPR[1]);
-		InputCharacter();
 
 	}
 
@@ -114,7 +113,7 @@ public class InputString : MonoBehaviour {
 	bool inputFlag = true;
 
 
-	void InputCharacter(){
+	IEnumerator InputCharacter(){
 
 		string[] inputChar = new string[] {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"} ;
 		Debug.Log (indexCheckFlag + " " + doubleCheckFlag + " " + openCloseCheckFlag);
@@ -143,6 +142,8 @@ public class InputString : MonoBehaviour {
 		if (openCloseCheckFlag == false) {
 			inputText.text += inputone;
 		}
-		
+
+		yield return new WaitForSeconds (1);
+
 	}
 }
